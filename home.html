@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="icon" href="./fitness-weightlifting-logo-vector-illustration-symbol-design_757387-1016.avif">
+    <link rel="stylesheet" href="design.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+    <title>Health Club</title>
+    <style>
+        .register {
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Change opacity to suit */
+        }
+
+        .home {
+            position: relative;
+        }
+
+        #calc {
+            margin-left: 120px;
+            margin-top: 50px;
+        }
+
+        .slogan {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+
+            /* Adjust the max-width as needed */
+            .health-club {
+                display: none;
+            }
+        }
+
+        .fixed img {
+            height: 25vh;
+            background-attachment: fixed;
+            width: 100%;
+        }
+
+        button {
+            background: linear-gradient(to left, black, rgb(29, 10, 101));
+            border-radius: 2px;
+            width: 200px;
+            height: 50px;
+        }
+
+        footer {
+            background: linear-gradient(to left, black, rgb(29, 10, 101));
+        }
+
+        .card img {
+            width: auto;
+            height: 20rem;
+        }
+
+        .scroller {
+            margin-top: 250px;
+        }
+
+        .content {
+            background-attachment: fixed;
+        }
+
+        .content img {
+            background-size: cover;
+            background-position: center;
+
+            width: 100%;
+            height: 30vh;
+            background-attachment: fixed;
+        }
+
+        .text {
+            transform: translate(2%, -120%);
+        }
+    </style>
+</head>
+
+<body class="register">
+    <div class="home">
+        <video autoplay loop muted class="d-block" style="width: 100%;">
+            <source src="./5319435-uhd_3840_2160_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="slogan">
+            <h1 class="">Build Your Body Strong</h1>
+            <p class=""> Get fit fast with Waves Gym’s certified personal trainers. Enjoy cardio, strength, and weight
+                training with top equipment. Join now and make ‘Impossible’ ‘I’m Possible’!</p>
+            <button class="text-light">Book Now</button>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-1" id="nav">
+            <div class="container">
+                <a href="home.html" class="navbar-brand">
+                    <img src="./gym-logo-fitness-logo-design-template-design-for-gym-and-fitness-vector-removebg-preview.png"
+                        class="p-0 m-0 logo" alt="Logo">
+                </a>
+                <h2 class="text-white ms-2 mt-3 health-club">Health Club</h2>
+                <!-- Add a class to target it specifically -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-white" href="" id="home_user"></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-white" href="#exercise" ">Exercises</a>
+                        </li>
+                        <li class=" nav-item mx-2">
+                                <a class="nav-link text-white" href="#bmi" ">Calculate BMI</a>
+                        </li>
+                        <li class=" nav-item mx-2">
+                                    <a class="nav-link text-white" href="#contact">Contact us</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-white" href="login.html">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="pt-5" id="exercise">
+        <h2 class="pb-4  text-white text-center ">Build your best body</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="./gym_images/leg-workouts-for-men-7-best-workouts-for-quads-glutes-hams-header-v2-960x540.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button" class="text-light w-100">Leg</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="./gym_images/feature-image_664d327f-547e-4e9e-aae3-3e9d651d2cea.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button" class="text-light w-100">Chest</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="./gym_images/shutterstock_673719400_637e003f78912.jpeg" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <button type="button" class="text-light w-100">Back</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="./gym_images/00790264eb01f3c0f34d0c2665595a90929eaec2-1080x540.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button" class="text-light w-100">Abs</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item mb-4">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="./gym_images/16419960151339.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button" class="text-light w-100">Arm</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="./gym_images/The_Best_10_Exercises_to_Train_Your_Shoulder_Muscles_at_Gym_1.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button" class="text-light w-100">Shoulder</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="./gym_images/GettyImages-1395504255-33d159af773f45039286966a35dfd76d.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button" class="text-light w-100">Yoga</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="./gym_images/istockphoto-1067009516-612x612.jpg" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <button type="button" class="text-light w-100">Zompa</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon scroller" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon scroller" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-12 position-relative content  mt-5 mb-5 ">
+                <img style="background-image: url('./gym_images/360_F_429356296_CVQ5LkC6Pl55kUNLqLisVKgTw9vjyif1.jpg');"
+                    alt="">
+                <div class="text position-absolute  text-white">
+                    <h3 class="text-white">KEEP YOUR BODY HEALTHY</h3>
+                    <p>Get better and faster results with our personal trainers.
+                        Reduce muscle tension and pain at our massage sessions.
+                        our classes will make you reach your
+                        fitness goal with the energy that fills</p>
+                    <p> the room that keeps you motivated.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bmi container-fluid mt-5 " id="bmi">
+        <div class="row">
+            <h2 class="text-white text-center">Calculate your BMI</h2>
+            <p class="text-white text-center">Always remember, every body holds its own unique beauty</p>
+
+            <div class="col-md-6 mt-5">
+                <div class="inpu mt-5">
+                    <input placeholder="Height" class="p-2" id="heightInput">
+                    <input placeholder="Weight" class="ms-5 p-2" id="weightInput">
+                </div>
+
+                <div id="result" class="text-white pt-5"></div>
+                <button class="text-white" id="calc">Calculate</button>
+
+            </div>
+            <div class="col-md-6">
+                <img src="./gym_images/body-mass-index-weight-bmi-vector-38601932-removebg-preview.png" class="w-100">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-12 position-relative content  mt-5 mb-5 ">
+                <img style="background-image: url('./gym_images/unnamed.jpg');" alt="">
+                <div class="text position-absolute  text-white">
+                    <h3 class="text-white">BUILDING THE
+                        NEXT GENERATION
+                        OF LEGENDS</h3>
+                    <p>Get better and faster results with our personal trainers.
+                        Reduce muscle tension and pain at our massage sessions.
+                        our classes will make you reach your
+                        fitness goal with the energy that fills</p>
+                    <p> the room that keeps you motivated.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia velit sit amet massa
+                        convallis, eget eleifend libero consectetur. Donec interdum est sit amet leo viverra, at
+                        ullamcorper turpis fermentum.</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <p>123 Main Street, City</p>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: +1234567890</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+
+                        <li><a href="#" class="text-light link-underline-opacity-0 ">Services</a></li>
+
+                    </ul>
+                </div>
+                <!-- </div>
+        <div class="row mt-5">
+            <div class="col-lg-6"> -->
+
+                <form>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="user_email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="user_message" rows="3" placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="text-white" onclick="send()">Submit</button>
+
+                    <script type="text/javascript"
+                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                    <script type="text/javascript">emailjs.init('f42K2GV3UqgR5c-19')</script>
+                </form>
+
+                <script>
+                    function send() {
+                        let parms = {
+                            user_email: document.getElementById("user_email").value,
+                            user_message: document.getElementById("user_message").value,
+                        };
+
+                        emailjs.send("service_s3w9gzv", "template_ivqmqu6", parms)
+                            .then(function (response) {
+                                alert("Email sent successfully");
+                            })
+                            .catch(function (error) {
+                                console.error("Error sending email:", error);
+                                alert("Error sending email. Please try again later.");
+                            });
+                    }
+
+                </script>
+
+    </footer>
+    <footer class="footer mt-auto py-3 bg-dark  ">
+        <div class="container text-center">
+            <span class="text-white ">© 2024 Health Club. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
