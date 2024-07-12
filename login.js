@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 message2.classList.remove("text-danger");
                 message2.classList.add("text-success");
                 localStorage.setItem('currentUser', JSON.stringify(users[i].name));
-                location.href = "./index.html";
+                location.href = "./home.html";
                 return;
             }
         }
