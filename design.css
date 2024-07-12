@@ -1,0 +1,102 @@
+
+.navbar-brand{
+    width: 150px;
+}
+.navbar {  
+    background: linear-gradient(to left, black, rgb(29, 10, 101));
+}
+.btn{
+    color: white;
+    background:  rgb(174, 154, 1);
+    
+    
+}
+
+:root {
+    --mainColor: rgb(255, 222, 244);
+}
+.btn:hover{
+    background-color: rgb(129, 3, 3);
+}
+.cover{
+    background-color: rgba(224, 224, 224, 0.4);
+    height: 100vh;
+}
+
+.register{
+
+    background: linear-gradient(to left, black, rgb(29, 10, 101));
+}
+.larger-form {
+    padding: 30px; /* Increased padding for larger form */
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border-radius: 10px;
+    border: 0;
+}
+
+.card-header {
+    background-color: transparent !important; 
+}button{
+    background-color:rgb(255, 222, 244);
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+
+.text-white a {
+    text-decoration: none;
+    color:rgb(255, 222, 244);
+}
+ a {
+    text-decoration: none;
+    
+}
+form{
+    border: 0;
+}
+.card-body{
+    padding: 0;
+}
+.text-white a:hover {
+    text-decoration: none; /* Remove underline on hover */
+  /* Make link bold on hover */
+}
+.col-md-8 {
+    flex: 0 0 auto;
+    width: 100%;}
+/* home */
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.home video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+    position: relative; /* Ensure navbar appears on top of the video */
+    z-index: 1; /* Ensure navbar stays on top of other content */
+}
+.logo{
+    width: 200px;
+}
+.register {
+    background-color: rgba(0, 0, 0, 0.5); /* Change opacity to suit */
+}
+h2{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+   
+}
